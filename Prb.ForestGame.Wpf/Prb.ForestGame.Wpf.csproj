@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Prb.ForestGame.Core\Prb.ForestGame.Core.csproj" />
+  </ItemGroup>
+
 </Project>

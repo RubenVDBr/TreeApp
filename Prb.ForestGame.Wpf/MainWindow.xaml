@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prb.ForestGame.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="406" Width="800">
+        Title="MainWindow" Height="406" Width="800" Loaded="Window_Loaded">
     <Grid>
 
         <ListBox x:Name="lstForest" HorizontalAlignment="Left" Height="242" Margin="312,120,0,0" VerticalAlignment="Top" Width="418"/>
-        <Button x:Name="btnCreateForest" Content="Create forest" HorizontalAlignment="Left" Height="33" Margin="14,14,0,0" VerticalAlignment="Top" Width="124" />
+        <Button x:Name="btnCreateForest" Content="Create forest" HorizontalAlignment="Left" Height="33" Margin="14,14,0,0" VerticalAlignment="Top" Width="124" Click="btnCreateForest_Click" />
         <ScrollViewer Margin="37,120,505,28" VerticalScrollBarVisibility="Auto">
             <TextBlock x:Name="tblActions"   TextWrapping="Wrap" Width="258"/>
         </ScrollViewer>
