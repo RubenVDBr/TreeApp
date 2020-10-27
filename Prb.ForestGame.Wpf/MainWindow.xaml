@@ -1,0 +1,22 @@
+﻿<Window x:Class="Prb.ForestGame.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prb.ForestGame.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="406" Width="800">
+    <Grid>
+
+        <ListBox x:Name="lstForest" HorizontalAlignment="Left" Height="242" Margin="312,120,0,0" VerticalAlignment="Top" Width="418"/>
+        <Button x:Name="btnCreateForest" Content="Create forest" HorizontalAlignment="Left" Height="33" Margin="14,14,0,0" VerticalAlignment="Top" Width="124" />
+        <ScrollViewer Margin="37,120,505,28" VerticalScrollBarVisibility="Auto">
+            <TextBlock x:Name="tblActions"   TextWrapping="Wrap" Width="258"/>
+        </ScrollViewer>
+        <Button x:Name="btnSquirrelsClimb" Content="Squirrels" HorizontalAlignment="Left" Margin="312,14,0,0" VerticalAlignment="Top" Width="137" Height="33"  />
+        <Button x:Name="btnLumberjackCuts" Content="Lumberjack" HorizontalAlignment="Left" Height="33" Margin="596,14,0,0" VerticalAlignment="Top" Width="134"  />
+        <Label Content="Forest" HorizontalAlignment="Left" Margin="14,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.423,0.127" FontWeight="Bold"/>
+        <Label Content="Trees" HorizontalAlignment="Left" Margin="312,89,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
