@@ -9,12 +9,12 @@
     <Grid>
 
         <ListBox x:Name="lstForest" HorizontalAlignment="Left" Height="242" Margin="312,120,0,0" VerticalAlignment="Top" Width="418"/>
-        <Button x:Name="btnCreateForest" Content="Create forest" HorizontalAlignment="Left" Height="33" Margin="14,14,0,0" VerticalAlignment="Top" Width="124" Click="btnCreateForest_Click" />
+        <Button x:Name="btnCreateForest" Content="Create forest" HorizontalAlignment="Left" Height="33" Margin="14,14,0,0" VerticalAlignment="Top" Width="124" />
         <ScrollViewer Margin="37,120,505,28" VerticalScrollBarVisibility="Auto">
             <TextBlock x:Name="tblActions"   TextWrapping="Wrap" Width="258"/>
         </ScrollViewer>
-        <Button x:Name="btnSquirrelsClimb" Content="Squirrels" HorizontalAlignment="Left" Margin="312,14,0,0" VerticalAlignment="Top" Width="137" Height="33"  />
-        <Button x:Name="btnLumberjackCuts" Content="Lumberjack" HorizontalAlignment="Left" Height="33" Margin="596,14,0,0" VerticalAlignment="Top" Width="134"  />
+        <Button x:Name="btnSquirrelsClimb" Content="Squirrels" HorizontalAlignment="Left" Margin="312,14,0,0" VerticalAlignment="Top" Width="137" Height="33" Click="btnSquirrelsClimb_Click"  />
+        <Button x:Name="btnLumberjackCuts" Content="Lumberjack" HorizontalAlignment="Left" Height="33" Margin="596,14,0,0" VerticalAlignment="Top" Width="134" Click="btnLumberjackCuts_Click"  />
         <Label Content="Forest" HorizontalAlignment="Left" Margin="14,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.423,0.127" FontWeight="Bold"/>
         <Label Content="Trees" HorizontalAlignment="Left" Margin="312,89,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
 

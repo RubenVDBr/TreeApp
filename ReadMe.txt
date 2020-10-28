@@ -5,7 +5,7 @@ Noem het Prb.ForestGame.Core
 Je ziet dat de library automatisch een Class1.cs geeft, delete die maar. Om een nieuwe klasse te maken doe je een rechtermuisklik op je library, kies add -> class. Noem die altijd hoe je object zal noemen.
 In dit geval noemen we het Tree.cs
 
-WTF is een klasse nu en waarom hebben we da nodig? Een klasse is simpelweg gwn een soort blueprint. Stel dat je 30 auto's moet programmeren en elke auto heeft een prijs, kleur, topsnelheid etc.. 
+WTF is een klasse nu en waarom hebben we da nodig? Een klasse is simpelweg gwn een soort blueprint. Stel dat je 30 autos moet programmeren en elke auto heeft een prijs, kleur, topsnelheid etc.. 
 Hoe je dit normaal zou doen is mss het makkelijkst met alles in arrays te steken. Een array voor de kleur van elke auto. Dan zou je 30 instanties hebben in je array met allemaal kleuren. 
 AutoKleuren[5] zou bvb het kleur van auto #5 geven. Uiteindelijk is da nie ideaal als je programma complexer begint te worden. Dus introduceren we klasses. Da zijn eigenlijk lege objecten met parameters.
 Bvb: Een auto heeft een string kleur, een dec prijs, een int topsnelheid etc. We kunnen die veel gemakkelijker oproepen later in onze code via auto.prijs bvb. De uitleg van William op zn filmpje is 

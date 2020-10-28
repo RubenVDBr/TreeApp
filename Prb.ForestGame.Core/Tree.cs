@@ -34,10 +34,6 @@ namespace Prb.ForestGame.Core
         public int Id { get; set; }
 
 
-        //we declareren nog een property, onze tree moet dus een aantal birds hebben. Later kunnen we Tree.NumberOfBirds oproepen en dit
-        //zal een int terugkeren.
-        public int NumberOfBirds { get; set; }
-
         //minimum en maximum hoogte staan op private, dit moet niet uitgezonden worden naar de uiteindelijke app.
         //we hebben dit puur intern in onze klasse nodig. We gebruiken deze variabelen enkel wanneer we onze
         //uiteindelijke hoogte (als property) aanmaken.
@@ -142,7 +138,7 @@ namespace Prb.ForestGame.Core
 
             //Hier vullen we de int NumberOfBirds met een random nummer die maximum maxBirdCount + 1 heeft. Waarom +1? Omdat als je random.Next(1,8) doet zal het max 
             //nummer 7 zijn. 8 is de grens, dus je moet altijd +1 doen.
-            NumberOfBirds = random.Next(maxBirdCount + 1);
+            BirdCount = random.Next(maxBirdCount + 1);
 
             //we vullen de hoogte in, ook met een random, deze keer stellen we het minimum ook wel in.
             Height = random.Next(minHeight, maxHeight + 1);
@@ -165,7 +161,7 @@ namespace Prb.ForestGame.Core
         //zetten we een soort replacement voor wat hij moet teruggeven als hij nie weet wat terug te geven, dus als het Prb.ForestGame.core.Tree is.
         public override string ToString()
         {
-            return $"Tree {Id} of type {Type} - birds: {NumberOfBirds}, height: {Height} - squirrel: {HasSquirrel}";
+            return $"Tree {Id} of type {Type} - birds: {birdCount}, height: {Height} - squirrel: {HasSquirrel}";
         }
     }
     //ga nu naar 2.0 in Forest.cs
