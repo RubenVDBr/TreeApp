@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prb.ForestGame.Wpf", "Prb.ForestGame.Wpf\Prb.ForestGame.Wpf.csproj", "{5B8E11D8-C1B2-4675-AEF7-DED4835A540E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prb.ForestGame.Core", "Prb.ForestGame.Core\Prb.ForestGame.Core.csproj", "{E41D1E96-10AF-42C2-8FC9-DAD65EF7C3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prb.ForestGame.Core", "Prb.ForestGame.Core\Prb.ForestGame.Core.csproj", "{E41D1E96-10AF-42C2-8FC9-DAD65EF7C3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC067501-22FD-449F-9CE6-28154429C150}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
